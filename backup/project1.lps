@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="55"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="492"/>
+        <CursorPos X="40" Y="517"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="metodos_abiertos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="113"/>
+        <CursorPos X="21" Y="129"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="parsemath.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ParseMath"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="31" Y="50"/>
+        <UsageCount Value="55"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="metodosabiertos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="88"/>
+        <CursorPos X="15" Y="112"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="matrices.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Matrices"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="164"/>
+        <CursorPos X="103" Y="185"/>
+        <UsageCount Value="39"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="lagra_raphson.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="4"/>
+        <CursorPos X="13" Y="41"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="trapecio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="32" Y="8"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="edo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="112"/>
+        <CursorPos X="8" Y="135"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\lazarus\metodosAbiertos\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9609"/>
+        <CursorPos Y="9628"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="77"/>
+        <CursorPos Y="97"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="grafica.pas"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="2"/>
+        <CursorPos X="3" Y="16"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1892"/>
+        <CursorPos Y="1905"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\components\cmdline\ucmdbox.pas"/>
+        <UnitName Value="uCmdBox"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2055"/>
+        <CursorPos X="3" Y="2069"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="538" Column="3" TopLine="511"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="539" Column="3" TopLine="512"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="540" Column="3" TopLine="513"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="541" Column="3" TopLine="514"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="540" Column="3" TopLine="513"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="541" Column="3" TopLine="514"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="542" Column="3" TopLine="515"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="543" Column="3" TopLine="516"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="550" Column="3" TopLine="523"/>
+      </Position9>
+      <Position10>
+        <Filename Value="lagra_raphson.pas"/>
+        <Caret Line="205" Column="43" TopLine="53"/>
+      </Position10>
+      <Position11>
+        <Filename Value="edo.pas"/>
+        <Caret Line="38" Column="9" TopLine="9"/>
+      </Position11>
+      <Position12>
+        <Filename Value="edo.pas"/>
+        <Caret Line="28" Column="30" TopLine="7"/>
+      </Position12>
+      <Position13>
+        <Filename Value="edo.pas"/>
+        <Caret Line="17" Column="34" TopLine="7"/>
+      </Position13>
+      <Position14>
+        <Filename Value="edo.pas"/>
+        <Caret Line="36" Column="16" TopLine="15"/>
+      </Position14>
+      <Position15>
+        <Filename Value="edo.pas"/>
+        <Caret Line="8" Column="33"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="522" Column="3" TopLine="520"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="524" Column="3" TopLine="522"/>
+      </Position17>
+      <Position18>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="533" Column="100" TopLine="331"/>
+      </Position18>
+      <Position19>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="540" Column="100" TopLine="499"/>
+      </Position19>
+      <Position20>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="513" Column="33" TopLine="487"/>
+      </Position20>
+      <Position21>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="524" Column="22" TopLine="488"/>
+      </Position21>
+      <Position22>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="11" Column="69"/>
+      </Position22>
+      <Position23>
+        <Filename Value="metodosabiertos.pas"/>
+        <Caret Line="100" Column="21" TopLine="62"/>
+      </Position23>
+      <Position24>
+        <Filename Value="edo.pas"/>
+        <Caret Line="14" Column="24"/>
+      </Position24>
+      <Position25>
+        <Filename Value="edo.pas"/>
+        <Caret Line="99" Column="33" TopLine="62"/>
+      </Position25>
+      <Position26>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="524" Column="50" TopLine="505"/>
+      </Position26>
+      <Position27>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="522" Column="5" TopLine="498"/>
+      </Position27>
+      <Position28>
+        <Filename Value="edo.pas"/>
+        <Caret Line="17" Column="92"/>
+      </Position28>
+      <Position29>
+        <Filename Value="edo.pas"/>
+        <Caret Line="120" Column="14" TopLine="85"/>
+      </Position29>
+      <Position30>
+        <Filename Value="edo.pas"/>
+        <Caret Line="146" Column="10" TopLine="106"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

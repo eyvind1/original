@@ -1,0 +1,1515 @@
+object Form1: TForm1
+  Left = 274
+  Height = 710
+  Top = 124
+  Width = 978
+  Caption = 'Form1'
+  ClientHeight = 710
+  ClientWidth = 978
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '1.8.0.6'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 688
+    Top = 0
+    Width = 978
+    ActivePage = TabSheet13
+    TabIndex = 12
+    TabOrder = 0
+    OnChange = PageControl1Change
+    object TabSheet1: TTabSheet
+      Caption = 'Cerrados'
+      ClientHeight = 660
+      ClientWidth = 960
+      OnContextPopup = TabSheet1ContextPopup
+      object StringGrid1: TStringGrid
+        Left = 0
+        Height = 404
+        Top = 256
+        Width = 960
+        Align = alCustom
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        AutoFillColumns = True
+        ColCount = 6
+        FixedCols = 0
+        TabOrder = 0
+        ColWidths = (
+          156
+          156
+          156
+          156
+          156
+          159
+        )
+        Cells = (
+          6
+          0
+          0
+          'n'
+          1
+          0
+          'a'
+          2
+          0
+          'b'
+          3
+          0
+          'xn'
+          4
+          0
+          'signo'
+          5
+          0
+          'error'
+        )
+      end
+      object Edit1: TEdit
+        Left = 96
+        Height = 23
+        Top = 40
+        Width = 168
+        TabOrder = 1
+        Text = 'power(x,4)-3*x-1'
+      end
+      object Label1: TLabel
+        Left = 64
+        Height = 15
+        Top = 40
+        Width = 17
+        Caption = 'f(x)'
+        ParentColor = False
+      end
+      object Edit2: TEdit
+        Left = 434
+        Height = 23
+        Top = 42
+        Width = 68
+        TabOrder = 2
+        Text = '-1'
+      end
+      object Edit3: TEdit
+        Left = 434
+        Height = 23
+        Top = 87
+        Width = 68
+        TabOrder = 3
+        Text = '1'
+      end
+      object Button1: TButton
+        Left = 264
+        Height = 29
+        Top = 176
+        Width = 120
+        Caption = 'calcular'
+        OnClick = Button1Click
+        TabOrder = 4
+      end
+      object Edit4: TEdit
+        Left = 496
+        Height = 23
+        Top = 144
+        Width = 68
+        TabOrder = 5
+        Text = '0.001'
+      end
+      object Label2: TLabel
+        Left = 400
+        Height = 15
+        Top = 42
+        Width = 9
+        Caption = 'a:'
+        ParentColor = False
+      end
+      object Label4: TLabel
+        Left = 400
+        Height = 15
+        Top = 95
+        Width = 10
+        Caption = 'b:'
+        ParentColor = False
+      end
+      object Label5: TLabel
+        Left = 436
+        Height = 15
+        Top = 144
+        Width = 28
+        Caption = 'error:'
+        ParentColor = False
+      end
+      object RadioGroup1: TRadioGroup
+        Left = 43
+        Height = 116
+        Top = 98
+        Width = 145
+        AutoFill = True
+        Caption = 'Metodos Cerrados'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 96
+        ClientWidth = 141
+        Items.Strings = (
+          'Biseccion'
+          'Falsa Posicion'
+        )
+        TabOrder = 6
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Abiertos'
+      ClientHeight = 660
+      ClientWidth = 960
+      object Edit5: TEdit
+        Left = 100
+        Height = 23
+        Top = 58
+        Width = 138
+        TabOrder = 0
+        Text = 'power(x,4)-3*x-1'
+      end
+      object Edit6: TEdit
+        Left = 483
+        Height = 23
+        Top = 61
+        Width = 69
+        TabOrder = 1
+        Text = '-0.8'
+      end
+      object StringGrid2: TStringGrid
+        Left = 45
+        Height = 265
+        Top = 259
+        Width = 707
+        AutoFillColumns = True
+        ColCount = 3
+        FixedCols = 0
+        TabOrder = 2
+        ColWidths = (
+          228
+          228
+          230
+        )
+        Cells = (
+          3
+          0
+          0
+          'n'
+          1
+          0
+          'xn'
+          2
+          0
+          'error'
+        )
+      end
+      object Edit7: TEdit
+        Left = 487
+        Height = 23
+        Top = 160
+        Width = 72
+        TabOrder = 3
+        Text = '0.001'
+      end
+      object Edit8: TEdit
+        Left = 100
+        Height = 23
+        Top = 104
+        Width = 139
+        TabOrder = 4
+        Text = '4*power(x,3)-3'
+      end
+      object Label6: TLabel
+        Left = 56
+        Height = 15
+        Top = 61
+        Width = 17
+        Caption = 'f(x)'
+        ParentColor = False
+      end
+      object Label7: TLabel
+        Left = 56
+        Height = 15
+        Top = 104
+        Width = 20
+        Caption = 'f''(x)'
+        ParentColor = False
+      end
+      object Label8: TLabel
+        Left = 448
+        Height = 15
+        Top = 168
+        Width = 25
+        Caption = 'Error'
+        ParentColor = False
+      end
+      object Label9: TLabel
+        Left = 464
+        Height = 15
+        Top = 66
+        Width = 6
+        Caption = 'a'
+        ParentColor = False
+      end
+      object RadioGroup2: TRadioGroup
+        Left = 65
+        Height = 90
+        Top = 150
+        Width = 176
+        AutoFill = True
+        Caption = 'Metodos Abiertos'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 70
+        ClientWidth = 172
+        Items.Strings = (
+          'Newton'
+          'Secante'
+        )
+        TabOrder = 5
+      end
+      object Button2: TButton
+        Left = 301
+        Height = 28
+        Top = 176
+        Width = 103
+        Caption = 'Calcular'
+        OnClick = Button2Click
+        TabOrder = 6
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Matrices'
+      ClientHeight = 660
+      ClientWidth = 960
+      object RadioGroup3: TRadioGroup
+        Left = 0
+        Height = 177
+        Top = 8
+        Width = 166
+        AutoFill = True
+        Caption = 'Operaciones'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 157
+        ClientWidth = 162
+        Items.Strings = (
+          'Suma'
+          'Resta'
+          'Escalar'
+          'Multiplicar'
+          'Inversa'
+          'Traspuesta'
+          'Determinate'
+          'Potencia'
+        )
+        TabOrder = 0
+      end
+      object Edit9: TEdit
+        Left = 320
+        Height = 23
+        Top = 35
+        Width = 96
+        TabOrder = 1
+        Text = ' '
+      end
+      object Label3: TLabel
+        Left = 268
+        Height = 15
+        Top = 41
+        Width = 36
+        Caption = 'Escalar'
+        ParentColor = False
+      end
+      object GroupBox1: TGroupBox
+        Left = 192
+        Height = 224
+        Top = 88
+        Width = 272
+        Caption = 'Matriz A'
+        ClientHeight = 204
+        ClientWidth = 268
+        TabOrder = 2
+        object Label10: TLabel
+          Left = 16
+          Height = 15
+          Top = 13
+          Width = 7
+          Caption = 'n'
+          ParentColor = False
+        end
+        object Label11: TLabel
+          Left = 128
+          Height = 15
+          Top = 13
+          Width = 11
+          Caption = 'm'
+          ParentColor = False
+        end
+        object SpinEdit1: TSpinEdit
+          Left = 40
+          Height = 23
+          Top = 8
+          Width = 66
+          MinValue = 1
+          OnChange = SpinEdit1Change
+          TabOrder = 1
+          Value = 1
+        end
+        object SpinEdit2: TSpinEdit
+          Left = 160
+          Height = 23
+          Top = 8
+          Width = 64
+          MinValue = 1
+          OnChange = SpinEdit2Change
+          TabOrder = 2
+          Value = 1
+        end
+        object StringGrid3: TStringGrid
+          Left = 16
+          Height = 145
+          Top = 47
+          Width = 244
+          ColCount = 1
+          FixedCols = 0
+          FixedRows = 0
+          Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+          RowCount = 1
+          TabOrder = 0
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 496
+        Height = 224
+        Top = 88
+        Width = 272
+        Caption = 'Matriz B'
+        ClientHeight = 204
+        ClientWidth = 268
+        TabOrder = 4
+        object Label12: TLabel
+          Left = 24
+          Height = 15
+          Top = 13
+          Width = 7
+          Caption = 'n'
+          ParentColor = False
+        end
+        object Label13: TLabel
+          Left = 160
+          Height = 15
+          Top = 13
+          Width = 11
+          Caption = 'm'
+          ParentColor = False
+        end
+        object SpinEdit3: TSpinEdit
+          Left = 40
+          Height = 23
+          Top = 8
+          Width = 72
+          MinValue = 1
+          OnChange = SpinEdit3Change
+          TabOrder = 1
+          Value = 1
+        end
+        object SpinEdit4: TSpinEdit
+          Left = 184
+          Height = 23
+          Top = 8
+          Width = 74
+          MinValue = 1
+          OnChange = SpinEdit4Change
+          TabOrder = 2
+          Value = 1
+        end
+        object StringGrid4: TStringGrid
+          Left = 16
+          Height = 144
+          Top = 47
+          Width = 236
+          ColCount = 1
+          FixedCols = 0
+          FixedRows = 0
+          Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+          RowCount = 1
+          TabOrder = 0
+        end
+      end
+      object Button3: TButton
+        Left = 44
+        Height = 24
+        Top = 222
+        Width = 98
+        Caption = 'Calcular'
+        OnClick = Button3Click
+        TabOrder = 3
+      end
+      object StringGrid5: TStringGrid
+        Left = 187
+        Height = 264
+        Top = 360
+        Width = 534
+        ColCount = 1
+        FixedCols = 0
+        FixedRows = 0
+        RowCount = 1
+        TabOrder = 5
+      end
+      object ComboBox1: TComboBox
+        Left = 33
+        Height = 23
+        Top = 296
+        Width = 122
+        ItemHeight = 15
+        OnChange = ComboBox1Change
+        TabOrder = 6
+        Text = 'ComboBox1'
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Raphson'
+      ClientHeight = 660
+      ClientWidth = 960
+      object Edit10: TEdit
+        Left = 88
+        Height = 23
+        Top = 48
+        Width = 196
+        TabOrder = 0
+      end
+      object Edit11: TEdit
+        Left = 89
+        Height = 23
+        Top = 88
+        Width = 195
+        TabOrder = 1
+        Text = ' '
+      end
+      object Edit12: TEdit
+        Left = 529
+        Height = 23
+        Top = 16
+        Width = 83
+        TabOrder = 2
+        Text = '0'
+      end
+      object Edit13: TEdit
+        Left = 529
+        Height = 23
+        Top = 56
+        Width = 83
+        TabOrder = 3
+        Text = '0'
+      end
+      object Edit14: TEdit
+        Left = 512
+        Height = 23
+        Top = 163
+        Width = 100
+        TabOrder = 4
+        Text = '0.001'
+      end
+      object Button4: TButton
+        Left = 77
+        Height = 27
+        Top = 163
+        Width = 95
+        Caption = 'Calcular'
+        OnClick = Button4Click
+        TabOrder = 5
+      end
+      object Label14: TLabel
+        Left = 472
+        Height = 15
+        Top = 168
+        Width = 25
+        Caption = 'Error'
+        ParentColor = False
+      end
+      object StringGrid6: TStringGrid
+        Left = 77
+        Height = 411
+        Top = 240
+        Width = 812
+        AutoFillColumns = True
+        ColCount = 4
+        FixedCols = 0
+        TabOrder = 6
+        ColWidths = (
+          197
+          197
+          197
+          200
+        )
+      end
+      object Label15: TLabel
+        Left = 480
+        Height = 15
+        Top = 48
+        Width = 14
+        Caption = 'Xo'
+        ParentColor = False
+      end
+      object Label16: TLabel
+        Left = 16
+        Height = 15
+        Top = 88
+        Width = 54
+        Caption = 'Funciones'
+        ParentColor = False
+      end
+      object Edit16: TEdit
+        Left = 90
+        Height = 23
+        Top = 129
+        Width = 192
+        TabOrder = 7
+        Text = ' '
+      end
+      object Label21: TLabel
+        Left = 736
+        Height = 15
+        Top = 71
+        Width = 47
+        Caption = 'Variables'
+        ParentColor = False
+      end
+      object Edit17: TEdit
+        Left = 791
+        Height = 23
+        Top = 65
+        Width = 64
+        TabOrder = 8
+        Text = '2'
+      end
+      object Edit18: TEdit
+        Left = 529
+        Height = 23
+        Top = 92
+        Width = 82
+        TabOrder = 9
+        Text = '0'
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'Lagrange'
+      ClientHeight = 660
+      ClientWidth = 960
+      object SpinEdit5: TSpinEdit
+        Left = 120
+        Height = 23
+        Top = 80
+        Width = 98
+        MinValue = 1
+        OnChange = SpinEdit5Change
+        TabOrder = 0
+        Value = 1
+      end
+      object StringGrid7: TStringGrid
+        Left = 45
+        Height = 50
+        Top = 182
+        Width = 596
+        FixedCols = 0
+        FixedRows = 0
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+        RowCount = 2
+        TabOrder = 1
+      end
+      object Button5: TButton
+        Left = 75
+        Height = 31
+        Top = 273
+        Width = 125
+        Caption = 'Calcular'
+        OnClick = Button5Click
+        TabOrder = 2
+      end
+      object StaticText1: TStaticText
+        Left = 176
+        Height = 96
+        Top = 376
+        Width = 422
+        Caption = ' '
+        TabOrder = 3
+      end
+      object StaticText2: TStaticText
+        Left = 202
+        Height = 32
+        Top = 539
+        Width = 96
+        Caption = ' '
+        TabOrder = 4
+      end
+      object Edit15: TEdit
+        Left = 443
+        Height = 23
+        Top = 84
+        Width = 71
+        TabOrder = 5
+        Text = ' '
+      end
+      object Label17: TLabel
+        Left = 15
+        Height = 15
+        Top = 191
+        Width = 13
+        Caption = 'X :'
+        ParentColor = False
+      end
+      object Label18: TLabel
+        Left = 14
+        Height = 15
+        Top = 217
+        Width = 16
+        Caption = 'Y : '
+        ParentColor = False
+      end
+      object Edit19: TEdit
+        Left = 626
+        Height = 23
+        Top = 369
+        Width = 325
+        TabOrder = 6
+      end
+      object Memo1: TMemo
+        Left = 704
+        Height = 218
+        Top = 24
+        Width = 240
+        Lines.Strings = (
+          'Memo1'
+        )
+        TabOrder = 7
+      end
+    end
+    object TabSheet6: TTabSheet
+      Caption = 'Grafica'
+      ClientHeight = 660
+      ClientWidth = 960
+      object Chart1: TChart
+        Left = 224
+        Height = 652
+        Top = 8
+        Width = 520
+        AxisList = <        
+          item
+            Minors = <>
+            Title.LabelFont.Orientation = 900
+          end        
+          item
+            Alignment = calBottom
+            Minors = <>
+          end>
+        Foot.Brush.Color = clBtnFace
+        Foot.Font.Color = clBlue
+        Title.Brush.Color = clBtnFace
+        Title.Font.Color = clBlue
+        Title.Text.Strings = (
+          'TAChart'
+        )
+      end
+      object ediMin: TEdit
+        Left = 843
+        Height = 23
+        Top = 29
+        Width = 80
+        TabOrder = 1
+        Text = '-5'
+      end
+      object ediMax: TEdit
+        Left = 843
+        Height = 23
+        Top = 68
+        Width = 80
+        TabOrder = 2
+        Text = '5'
+      end
+      object ColorButton1: TColorButton
+        Left = 833
+        Height = 29
+        Top = 126
+        Width = 96
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        OnClick = ColorButton1Click
+      end
+      object TrackBar1: TTrackBar
+        Left = 823
+        Height = 29
+        Top = 200
+        Width = 104
+        Max = 4
+        Min = 1
+        Position = 1
+        TabOrder = 3
+      end
+      object ediStep: TEdit
+        Left = 832
+        Height = 23
+        Top = 169
+        Width = 79
+        TabOrder = 4
+        Text = '0.1'
+      end
+      object trbarVisible: TTrackBar
+        Left = 752
+        Height = 22
+        Top = 638
+        Width = 208
+        OnChange = trbarVisibleChange
+        Position = 0
+        Align = alCustom
+        TabOrder = 5
+      end
+      object Label19: TLabel
+        Left = 795
+        Height = 15
+        Top = 32
+        Width = 21
+        Caption = 'min'
+        ParentColor = False
+      end
+      object Label20: TLabel
+        Left = 795
+        Height = 15
+        Top = 68
+        Width = 22
+        Caption = 'max'
+        ParentColor = False
+      end
+      object ScrollBox1: TScrollBox
+        Left = 0
+        Height = 660
+        Top = 0
+        Width = 224
+        HorzScrollBar.Page = 1
+        VertScrollBar.Page = 1
+        Align = alLeft
+        TabOrder = 6
+      end
+    end
+    object TabSheet7: TTabSheet
+      Caption = 'Tra-Simp'
+      ClientHeight = 660
+      ClientWidth = 960
+      object Edit20: TEdit
+        Left = 107
+        Height = 23
+        Top = 79
+        Width = 161
+        TabOrder = 0
+        Text = 'power(x,2)'
+      end
+      object Edit21: TEdit
+        Left = 346
+        Height = 23
+        Top = 73
+        Width = 81
+        TabOrder = 1
+        Text = '1'
+      end
+      object Edit22: TEdit
+        Left = 346
+        Height = 23
+        Top = 118
+        Width = 85
+        TabOrder = 2
+        Text = '2'
+      end
+      object Memo2: TMemo
+        Left = 130
+        Height = 81
+        Top = 197
+        Width = 166
+        Lines.Strings = (
+          'Memo2'
+        )
+        TabOrder = 3
+      end
+      object Button6: TButton
+        Left = 328
+        Height = 33
+        Top = 184
+        Width = 116
+        Caption = 'trapecio'
+        OnClick = Button6Click
+        TabOrder = 4
+      end
+      object Edit23: TEdit
+        Left = 517
+        Height = 23
+        Top = 94
+        Width = 101
+        TabOrder = 5
+        Text = '5'
+      end
+      object Button7: TButton
+        Left = 339
+        Height = 33
+        Top = 249
+        Width = 115
+        Caption = 'Simpson'
+        OnClick = Button7Click
+        TabOrder = 6
+      end
+    end
+    object TabSheet8: TTabSheet
+      Caption = 'Eu-Heun'
+      ClientHeight = 660
+      ClientWidth = 970
+      object StringGrid8: TStringGrid
+        Left = 174
+        Height = 271
+        Top = 235
+        Width = 667
+        AutoFillColumns = True
+        ColCount = 4
+        TabOrder = 0
+        ColWidths = (
+          64
+          199
+          199
+          201
+        )
+      end
+      object Edit24: TEdit
+        Left = 113
+        Height = 23
+        Top = 71
+        Width = 211
+        OnChange = Edit24Change
+        TabOrder = 1
+        Text = 'x*y'
+      end
+      object Edit25: TEdit
+        Left = 428
+        Height = 23
+        Top = 79
+        Width = 57
+        TabOrder = 2
+        Text = ' '
+      end
+      object Edit26: TEdit
+        Left = 536
+        Height = 23
+        Top = 79
+        Width = 57
+        TabOrder = 3
+      end
+      object Edit27: TEdit
+        Left = 480
+        Height = 23
+        Top = 136
+        Width = 76
+        TabOrder = 4
+        Text = '0.25'
+      end
+      object Label22: TLabel
+        Left = 408
+        Height = 23
+        Top = 79
+        Width = 12
+        Caption = 'f('
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -19
+        Font.Name = 'Century'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label23: TLabel
+        Left = 496
+        Height = 23
+        Top = 79
+        Width = 23
+        Caption = ') ='
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -19
+        Font.Name = 'Century'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label24: TLabel
+        Left = 460
+        Height = 15
+        Top = 136
+        Width = 7
+        Caption = 'h'
+        ParentColor = False
+      end
+      object Label25: TLabel
+        Left = 72
+        Height = 15
+        Top = 72
+        Width = 29
+        Caption = 'f''(x,y)'
+        ParentColor = False
+      end
+      object RadioGroup4: TRadioGroup
+        Left = 8
+        Height = 103
+        Top = 120
+        Width = 136
+        AutoFill = True
+        Caption = 'RadioGroup4'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 83
+        ClientWidth = 132
+        Items.Strings = (
+          'Euler'
+          'Heun'
+        )
+        TabOrder = 5
+      end
+      object Button8: TButton
+        Left = 236
+        Height = 31
+        Top = 150
+        Width = 103
+        Caption = 'Calcular'
+        OnClick = Button8Click
+        TabOrder = 6
+      end
+    end
+    object TabSheet9: TTabSheet
+      Caption = 'Runge_Kutta4'
+      ClientHeight = 660
+      ClientWidth = 970
+      object StringGrid9: TStringGrid
+        Left = 104
+        Height = 230
+        Top = 281
+        Width = 712
+        AutoFillColumns = True
+        ColCount = 7
+        TabOrder = 0
+        ColWidths = (
+          64
+          107
+          107
+          107
+          107
+          107
+          109
+        )
+      end
+      object Edit28: TEdit
+        Left = 84
+        Height = 23
+        Top = 75
+        Width = 172
+        TabOrder = 1
+        Text = 'x*y'
+      end
+      object Edit29: TEdit
+        Left = 460
+        Height = 23
+        Top = 68
+        Width = 54
+        TabOrder = 2
+        Text = '2'
+      end
+      object Edit30: TEdit
+        Left = 560
+        Height = 23
+        Top = 68
+        Width = 56
+        TabOrder = 3
+        Text = ' 4'
+      end
+      object Edit31: TEdit
+        Left = 500
+        Height = 23
+        Top = 138
+        Width = 79
+        TabOrder = 4
+        Text = ' 0.25'
+      end
+      object Button9: TButton
+        Left = 270
+        Height = 31
+        Top = 174
+        Width = 105
+        Caption = 'Calcular'
+        OnClick = Button9Click
+        TabOrder = 5
+      end
+      object Label26: TLabel
+        Left = 432
+        Height = 18
+        Top = 72
+        Width = 20
+        Caption = 'f ('
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Algerian'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label27: TLabel
+        Left = 521
+        Height = 18
+        Top = 73
+        Width = 20
+        Caption = ') ='
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Name = 'Algerian'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheet10: TTabSheet
+      Caption = 'Regresion_Lineal'
+      ClientHeight = 660
+      ClientWidth = 960
+      OnContextPopup = TabSheet10ContextPopup
+      object SpinEdit6: TSpinEdit
+        Left = 168
+        Height = 23
+        Top = 56
+        Width = 72
+        OnChange = SpinEdit6Change
+        TabOrder = 0
+      end
+      object StringGrid10: TStringGrid
+        Left = 63
+        Height = 55
+        Top = 129
+        Width = 729
+        ColCount = 3
+        FixedRows = 0
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+        RowCount = 2
+        TabOrder = 1
+      end
+      object StringGrid11: TStringGrid
+        Left = 55
+        Height = 348
+        Top = 276
+        Width = 881
+        AutoFillColumns = True
+        ColCount = 8
+        FixedCols = 0
+        TabOrder = 2
+        ColWidths = (
+          107
+          107
+          107
+          107
+          107
+          107
+          107
+          111
+        )
+      end
+      object Button10: TButton
+        Left = 433
+        Height = 26
+        Top = 64
+        Width = 104
+        Caption = 'Button10'
+        OnClick = Button10Click
+        TabOrder = 3
+      end
+      object Memo3: TMemo
+        Left = 76
+        Height = 25
+        Top = 215
+        Width = 79
+        Lines.Strings = (
+          'Memo3'
+        )
+        TabOrder = 4
+      end
+      object Memo4: TMemo
+        Left = 216
+        Height = 26
+        Top = 214
+        Width = 81
+        Lines.Strings = (
+          'Memo4'
+        )
+        TabOrder = 5
+      end
+      object Memo5: TMemo
+        Left = 488
+        Height = 26
+        Top = 214
+        Width = 83
+        Lines.Strings = (
+          'Memo5'
+        )
+        TabOrder = 6
+      end
+      object Memo6: TMemo
+        Left = 656
+        Height = 26
+        Top = 214
+        Width = 95
+        Lines.Strings = (
+          'Memo6'
+        )
+        TabOrder = 7
+      end
+      object Label28: TLabel
+        Left = 21
+        Height = 15
+        Top = 217
+        Width = 40
+        Caption = 'mediaX'
+        ParentColor = False
+      end
+      object Label29: TLabel
+        Left = 168
+        Height = 15
+        Top = 217
+        Width = 40
+        Caption = 'mediaY'
+        ParentColor = False
+      end
+      object Label30: TLabel
+        Left = 433
+        Height = 15
+        Top = 217
+        Width = 53
+        Caption = 'pendiente'
+        ParentColor = False
+      end
+      object Label31: TLabel
+        Left = 608
+        Height = 15
+        Top = 217
+        Width = 21
+        Caption = 'bias'
+        ParentColor = False
+      end
+      object Memo13: TMemo
+        Left = 619
+        Height = 37
+        Top = 48
+        Width = 265
+        Lines.Strings = (
+          'Memo13'
+        )
+        TabOrder = 8
+      end
+    end
+    object TabSheet11: TTabSheet
+      Caption = 'Regresion_NoLineal'
+      ClientHeight = 660
+      ClientWidth = 960
+      object SpinEdit7: TSpinEdit
+        Left = 89
+        Height = 23
+        Top = 53
+        Width = 82
+        OnChange = SpinEdit7Change
+        TabOrder = 0
+      end
+      object Button11: TButton
+        Left = 375
+        Height = 36
+        Top = 68
+        Width = 111
+        Caption = 'Button11'
+        OnClick = Button11Click
+        TabOrder = 1
+      end
+      object StringGrid12: TStringGrid
+        Left = 16
+        Height = 290
+        Top = 344
+        Width = 928
+        AutoFillColumns = True
+        ColCount = 9
+        FixedCols = 0
+        TabOrder = 2
+        ColWidths = (
+          102
+          102
+          102
+          102
+          102
+          102
+          102
+          102
+          108
+        )
+      end
+      object StringGrid13: TStringGrid
+        Left = 50
+        Height = 61
+        Top = 163
+        Width = 814
+        ColCount = 3
+        FixedRows = 0
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+        RowCount = 2
+        TabOrder = 3
+        ColWidths = (
+          64
+          182
+          182
+        )
+      end
+      object Memo7: TMemo
+        Left = 64
+        Height = 26
+        Top = 265
+        Width = 86
+        Lines.Strings = (
+          'Memo7'
+        )
+        TabOrder = 4
+      end
+      object Memo8: TMemo
+        Left = 224
+        Height = 26
+        Top = 265
+        Width = 100
+        Lines.Strings = (
+          'Memo8'
+        )
+        TabOrder = 5
+      end
+      object Memo9: TMemo
+        Left = 504
+        Height = 27
+        Top = 265
+        Width = 143
+        Lines.Strings = (
+          'Memo9'
+        )
+        TabOrder = 6
+      end
+      object Memo10: TMemo
+        Left = 744
+        Height = 27
+        Top = 265
+        Width = 134
+        Lines.Strings = (
+          'Memo10'
+        )
+        TabOrder = 7
+      end
+      object Label32: TLabel
+        Left = 10
+        Height = 15
+        Top = 268
+        Width = 40
+        Caption = 'mediaX'
+        ParentColor = False
+      end
+      object Label33: TLabel
+        Left = 167
+        Height = 15
+        Top = 268
+        Width = 45
+        Caption = 'MediaY*'
+        ParentColor = False
+      end
+      object Label34: TLabel
+        Left = 412
+        Height = 15
+        Top = 268
+        Width = 53
+        Caption = 'pendiente'
+        ParentColor = False
+      end
+      object Label35: TLabel
+        Left = 688
+        Height = 15
+        Top = 268
+        Width = 21
+        Caption = 'bias'
+        ParentColor = False
+      end
+      object Memo11: TMemo
+        Left = 64
+        Height = 24
+        Top = 304
+        Width = 81
+        Lines.Strings = (
+          'Memo11'
+        )
+        TabOrder = 8
+      end
+      object Label36: TLabel
+        Left = 40
+        Height = 15
+        Top = 312
+        Width = 8
+        Caption = 'A'
+        ParentColor = False
+      end
+      object Memo14: TMemo
+        Left = 634
+        Height = 36
+        Top = 60
+        Width = 245
+        Lines.Strings = (
+          'Memo14'
+        )
+        TabOrder = 9
+      end
+      object Button13: TButton
+        Left = 215
+        Height = 35
+        Top = 72
+        Width = 101
+        Caption = 'Button13'
+        OnClick = Button13Click
+        TabOrder = 10
+      end
+    end
+    object TabSheet12: TTabSheet
+      Caption = 'Logaritmica'
+      ClientHeight = 660
+      ClientWidth = 960
+      object StringGrid14: TStringGrid
+        Left = 88
+        Height = 62
+        Top = 96
+        Width = 783
+        FixedRows = 0
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+        RowCount = 2
+        TabOrder = 0
+      end
+      object StringGrid15: TStringGrid
+        Left = 88
+        Height = 256
+        Top = 272
+        Width = 733
+        AutoFillColumns = True
+        ColCount = 3
+        FixedCols = 0
+        TabOrder = 1
+        ColWidths = (
+          237
+          237
+          238
+        )
+      end
+      object SpinEdit8: TSpinEdit
+        Left = 56
+        Height = 23
+        Top = 24
+        Width = 100
+        OnChange = SpinEdit8Change
+        TabOrder = 2
+      end
+      object Button12: TButton
+        Left = 337
+        Height = 29
+        Top = 31
+        Width = 107
+        Caption = 'Button12'
+        OnClick = Button12Click
+        TabOrder = 3
+      end
+      object Memo12: TMemo
+        Left = 117
+        Height = 37
+        Top = 197
+        Width = 251
+        Lines.Strings = (
+          'Memo12'
+        )
+        TabOrder = 4
+      end
+    end
+    object TabSheet13: TTabSheet
+      Caption = 'Dormand_Prince'
+      ClientHeight = 660
+      ClientWidth = 970
+      object StringGrid16: TStringGrid
+        Left = 56
+        Height = 288
+        Top = 224
+        Width = 846
+        AutoFillColumns = True
+        ColCount = 3
+        FixedCols = 0
+        TabOrder = 0
+        ColWidths = (
+          280
+          280
+          282
+        )
+      end
+      object Edit32: TEdit
+        Left = 64
+        Height = 23
+        Top = 56
+        Width = 192
+        TabOrder = 1
+        Text = ' '
+      end
+      object Edit33: TEdit
+        Left = 501
+        Height = 23
+        Top = 69
+        Width = 80
+        TabOrder = 2
+        Text = ' '
+      end
+      object Edit34: TEdit
+        Left = 656
+        Height = 23
+        Top = 69
+        Width = 80
+        TabOrder = 3
+      end
+      object Edit35: TEdit
+        Left = 585
+        Height = 23
+        Top = 149
+        Width = 80
+        TabOrder = 4
+        Text = ' '
+      end
+      object Button14: TButton
+        Left = 244
+        Height = 31
+        Top = 141
+        Width = 129
+        Caption = 'Button14'
+        OnClick = Button14Click
+        TabOrder = 5
+      end
+    end
+  end
+end
